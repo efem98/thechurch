@@ -1,0 +1,38 @@
+.map p{
+	padding-top: 300px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.rope{
+	display: flex;
+	justify-content: space-around;
+}
+.call{
+	text-align: center;
+}
+.call-us{
+	background-color:brown;
+	width: 20%;
+	padding: 20px;
+	height: auto;
+	position: relative;
+	bottom: 30px;
+	font-size: 12px;
+	margin-left: 50px;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+@media(max-width: 1020px){
+	.call-us{
+		width: 50%;
+	}
+
+}
+
+
+.touch h1 p{
+	/*color: white;*/
+	text-align: center;
+}

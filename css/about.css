@@ -1,0 +1,47 @@
+.about{
+
+	text-align: center;
+}
+.about p{
+	max-width: 900px;
+	margin-left: 200px;
+}
+@media(max-width: 1200px){
+	.about p{
+		margin: 40px 20px;
+	}
+}
+
+.cup{
+	color:white;
+	padding-top:150px;
+	text-align: center;
+}
+.subjects{
+	margin: 100px auto;
+	max-width: 700px;
+}
+.miss{
+	border: 1px solid black;
+	padding-left: 20px;
+}
+.news{
+	background-color:pink;
+	display: flex;
+	margin: 20px 30px;
+	width: 200px;
+}
+.news h6{
+	padding:20px;
+	color: white;
+}
+.pastor img{
+	width: 100%;
+}
+@media(max-width:1200px){
+	.subjects {
+    margin: 100px 40px;
+    max-width: 700px;
+}
+
+}

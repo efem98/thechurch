@@ -1,0 +1,19 @@
+section h1{
+	font-size: 2rem;
+	margin-left:50px;
+	
+}
+.rec{
+	width: 90%;
+	margin:50px;
+
+}
+@media(max-width: 1200px){
+	.rec{
+		width:100%;
+		margin: 0;
+	}
+	section h1{
+		margin: 0;
+	}
+}

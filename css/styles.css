@@ -1,0 +1,220 @@
+ 
+      .Events{
+        background-image: url('../images/Rectangle10.png');
+        background-repeat: no-repeat;
+        width:100%;
+        height:100vh;
+      }
+     
+      .ph{
+      	border-left: 2px solid black ;
+
+      }
+   
+      .upcoming{
+        width: 100%;
+        height: auto;
+      background: linear-gradient( rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0),blue
+        )
+      ,url(../images/Rectangle12.png)no-repeat;
+      background-size: cover;
+      }
+      .bible-study{
+        background-image: url('../images/pngwing.png');
+        background-repeat: no-repeat;
+        width:100%;
+        height:auto;
+      }
+
+
+#home ul li a{
+	padding: 20px;
+}
+#home ul li a:hover{
+  color:#fff;
+}
+#home ul li a:hover:after{
+  content :"";
+  height:6px;
+  width: 6px;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 7px;
+  background:#d71758;
+}
+
+.bg-sm{
+color: blue;
+}
+.Kingdom{
+	font-size: 3.5rem;
+}
+
+.eve{
+	padding-left: 30px;
+}
+.one{
+	width:50%;
+	 margin-left:300px;
+}
+@media(max-width: 1020px)
+{
+	.one{
+	width:100%;
+	 margin-left:0px;
+}
+.believe{
+	text-align: center;
+	margin-top: 20px;
+}
+}
+
+.span{
+	background-color:orange;
+}
+
+.upcoming{
+	text-align: center;
+	color: white;
+	padding-top: 80px
+}
+
+
+.contain p{
+	margin :20px auto;
+	max-width: 550px;
+	text-align: left;
+	align-items: center;
+}
+hr{
+	background-color: gray;
+}
+
+
+/*schedules*/
+.bible-study h1{
+	text-align: center;
+	padding-top: 50px;
+}
+	.shedule{
+		width:50%;
+		height: 40px;
+		background-color:white;
+		margin:100px auto ;
+		border-radius: 20px;
+		box-shadow: 2px 2px gray;
+
+		display: flex;
+		justify-content: space-around;
+	}
+
+
+
+/*footer*/
+.foot{
+	display: flex;
+	justify-content:space-around;
+	font-size: 15px;
+}
+.address{
+	width: 300px;
+	
+}
+.foot li{
+	list-style-type: none;
+	text-align: left;
+}
+.bax{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.add{
+	width:15%; 
+	height:100px; 
+	margin-top: 50px;
+}
+@media(max-width: 900px){
+	.foot{
+	
+	flex-direction: column;
+	
+}
+.address{
+	width: 100%;
+
+}
+.address p{
+	max-width: 500px;
+}
+.add{
+	width:35%; 
+
+	margin-bottom:50px;
+}
+.foot{
+	margin-left: 30px;
+}
+.contact{
+	margin-top: 20px;
+}
+}
+
+@media(max-width: 500px){
+	.foot{
+	
+	flex-direction: column;
+	}
+.address{
+	width: 100%;
+
+}
+.address p{
+	max-width: 300px;
+}
+.add{
+	width:45%; 
+
+	margin-bottom:50px;
+}
+.foot{
+	margin-left: 30px;
+}
+.contact{
+	margin-top: 20px;
+}
+  .ph{
+      
+      	margin-right: 20px;
+      }
+
+}
+
+
+@media(max-width: 1020px){
+	.shedule{
+		width:100%;
+	}
+	.bible-study h1{
+	font-size: 30px;
+}
+.upcoming h1{
+	font-size: 1.5rem;
+}
+
+.upcoming p{
+	font-size: 15px;
+}
+
+.contain p{
+	font-size: 15px;
+	max-width: 250px;
+}
+}
+
+
+
+
+
+
